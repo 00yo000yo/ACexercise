@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Fake Friend</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">Fake User List</a>
+        </div>
+      </nav>
+      
+      <div class="userList container-xxl">
+      
+        <div class="row row-cols-auto" id="eachCard">
+        </div>
+      
+        <!-- Modal -->
+        <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+      
+              <div class="modal-header">
+                <h5 class="modal-title" id=info-modal-title>modal-title</h5>
+              </div>
+      
+              <div class="modal-body" id="info-modal-body">
+      
+                <div class="row ">
+                  <div class="col " id="info-image">
+                    <img src="">
+                  </div>
+                  <div class="col" id="detailInfo">
+                  </div>
+                </div>
+      
+              </div>
+      
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+      
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.23.0/axios.min.js"></script>
+  <script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+  
+</body>
+
+</html>
